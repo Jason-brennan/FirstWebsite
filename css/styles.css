@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: lightgrey;
+  color: #414141;
+}
+
+.intro {
+  background-color: grey;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  border-bottom-style: groove;
+  border-color: yellow;
+  border-width: 30px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 75px;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 35px;
+  font-family: 'Cinzel', serif;
+  color: white;
+}
+
+h3 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 35px;
+  font-family: 'Cinzel', serif;
+  color: white;
+}
+
+.skills {
+  width: 50%;
+  margin: 100px auto 200px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.me {
+  width: 75%;
+  margin: 0 auto auto;
+  text-align: center;
+  line-height: 2;
+}
+
+.selfie {
+  border-radius: 100%;
+  margin-top: 75px;
+  margin-bottom: 50px;
+  width: 20%;
+}
+
+.coding {
+  width: 25%;
+  float: left;
+  margin-right: 40px;
+}
+
+.drone {
+  width: 25%;
+  float: right;
+  margin-left: 40px;
+  height: 164.14px;
+  border-radius: 100%;
+}
+
+p {
+  margin-bottom: 100px;
+}
+
+.apple {
+
+  position: absolute;
+  right: 30px;
+  width: 5%;
+  margin: 0;
+}
+
+.computer {
+  position: absolute;
+left: 30px;
+top: 30px;
+height: 40px;
+}
+
+.contact-me {
+  width: 75%;
+  margin: 40px auto 40px;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5rem;
+  border-color: yellow;
+  margin-bottom: 100px;
+  margin-top: 100px
+}
+
+.footer {
+  background-color: grey;
+  padding-top: 35px;
+  padding-bottom: 10px;
+  border-top-style: groove;
+  border-color: yellow;
+  border-width: 30px;
+  margin: 0;
+}
+
+.copyright {
+  margin: 20px auto;
+}
+
+.thanks {
+  margin-bottom: 15px;
+}
+
+.button {
+  border-top: 1px solid #000203;
+  background: yellow;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(yellow));
+  background: -webkit-linear-gradient(top, white, yellow);
+  background: -moz-linear-gradient(top, white, yellow);
+  background: -ms-linear-gradient(top, white, yellow);
+  background: -o-linear-gradient(top, white, yellow);
+  padding: 12.5px 25px;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  border-radius: 13px;
+  -webkit-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+  -moz-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+  box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+  text-shadow: rgba(0, 0, 0, .4) 0 1px 0;
+  color: #f70a0a;
+  font-size: 20px;
+  font-family: 'Cinzel', serif;
+  text-decoration: none;
+  vertical-align: middle;
+  line-height: 2;
+}
+
+.button:hover {
+  border-top-color: #414141;
+  background: #414141;
+  color: yellow;
+}
+
+.button:active {
+  border-top-color: #f70a0a;
+  background: #f70a0a;
+}
